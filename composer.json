@@ -1,0 +1,20 @@
+{
+  "name": "opdavies/twig-extensions",
+  "description": "A collection of personal Twig extensions.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oliver Davies",
+      "email": "oliver@oliverdavies.uk",
+      "homepage": "https://www.oliverdavies.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Opdavies\\Twig\\Extensions\\": "src"
+    }
+  },
+  "require": {
+    "twig/twig": "^1.24"
+  }
+}
