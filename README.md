@@ -6,4 +6,4 @@ A collection of personal Twig extensions.
 
 ### Example
 
-    variable|boolean_string
+    {{ variable|boolean_string }}
