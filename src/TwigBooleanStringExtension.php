@@ -3,6 +3,8 @@
 namespace Opdavies\Twig\Extensions;
 
 use InvalidArgumentException;
+use Twig_Extension;
+use Twig_SimpleFilter;
 
 class TwigBooleanStringExtension extends Twig_Extension
 {
