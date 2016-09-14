@@ -19,6 +19,7 @@ class TwigBooleanStringExtension extends Twig_Extension
     {
         return [
             new Twig_SimpleFilter('boolean_string', [$this, 'isBoolean']),
+            new Twig_SimpleFilter('boolean_as_string', [$this, 'isBoolean']),
         ];
     }
 
