@@ -16,5 +16,10 @@
   },
   "require": {
     "twig/twig": "^1.24"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.2-dev"
+    }
   }
 }
