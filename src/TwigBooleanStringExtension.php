@@ -32,12 +32,13 @@ class TwigBooleanStringExtension extends Twig_Extension
      * @return string
      *   A 'true' or 'false' string.
      *
-     * @throws InvalidArgumentException
+     * @throws 
+     idArgumentException
      */
     public function isBoolean($value)
     {
         if (!is_bool($value)) {
-            throw new InvalidArgumentException();
+            throw new InvalidArgumentException('The value is not a boolean.');
         }
 
         return $value ? self::BOOLEAN_STRING_TRUE : self::BOOLEAN_STRING_FALSE;
